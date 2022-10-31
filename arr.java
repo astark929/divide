@@ -1,7 +1,7 @@
 package maxNumberIn2DArr;
 
 
-public class main {
+public class arr {
     public static double sum (double [] [] m, int column) {
 
         double sum = 0;
