@@ -28,7 +28,7 @@ public class RegularPolygon {
     }
 
     public String getArea(){
-        double a = (n * Math.pow(n,2) / (4 * Math.tan(Math.PI / n)));
+        double a = (n * Math.pow(side,2) / (4 * Math.tan(Math.PI / n)));
         return "Area: " + a;
     }
 }
