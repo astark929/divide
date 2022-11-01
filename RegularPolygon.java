@@ -1,10 +1,10 @@
 package OctArch;
 
 public class RegularPolygon {
-    private int n = 3;
-    private double side = 1;
-    private double x = 0;
-    private double y = 0;
+    private int;
+    private double side;
+    private double;
+    private double;
 
     public RegularPolygon(){
 
