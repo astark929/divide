@@ -8,8 +8,8 @@ public class RegularPolygon {
 
     public RegularPolygon(){
 
-        n = 4;
-        side = 3;
+        n = 3;
+        side = 1;
         x = 0;
         y = 0;
 
