@@ -1,15 +1,15 @@
 package OctArch;
 
 public class RegularPolygon {
-    private int;
-    private double side;
-    private double;
-    private double;
+    private int 3;
+    private double side = 1;
+    private double = 0;
+    private double = 0;
 
     public RegularPolygon(){
 
-        n = 3;
-        side = 1;
+        n = 4;
+        side = 5;
         x = 0;
         y = 0;
 
@@ -31,4 +31,22 @@ public class RegularPolygon {
         double a = (n * Math.pow(side,2) / (4 * Math.tan(Math.PI / n)));
         return "Area: " + a;
     }
+    
+    public double getSide() {
+        return side;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public int getN() {
+        return n;
+    }
+    
+    
 }
